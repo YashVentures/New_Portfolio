@@ -1,0 +1,113 @@
+.services {
+  position: relative;
+  padding: 6rem 0;
+  background: var(--bg-secondary);
+}
+
+.services-subtitle {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: -2rem auto 3rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-card-professional {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(10px);
+  box-shadow: var(--shadow);
+  text-align: center;
+  cursor: pointer;
+  min-width: 0;
+}
+
+.service-card-professional:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 15px 40px rgba(139, 92, 246, 0.2);
+}
+
+.service-icon-professional {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--text-primary);
+  border-radius: 50%;
+  font-size: 2.25rem;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+.service-card-professional:hover .service-icon-professional {
+  transform: scale(1.1);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.4);
+}
+
+.service-title-professional {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.service-description-professional {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .service-card-professional {
+    padding: 2rem 1.5rem;
+  }
+  
+  .service-icon-professional {
+    width: 60px;
+    height: 60px;
+    font-size: 1.75rem;
+  }
+  
+  .service-title-professional {
+    font-size: 1.2rem;
+  }
+  
+  .service-description-professional {
+    font-size: 0.9rem;
+  }
+}

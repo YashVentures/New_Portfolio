@@ -1,0 +1,216 @@
+[
+   {
+    "title": "Scheduler",
+    "subtitle": "A Calendar Based Scheduling App",
+    "description": "A system that helps people book meetings without back-and-forth messages. A user can set their available times and share a personal booking link. Anyone can open that link, pick a suitable time, and schedule a meeting instantly.",
+    "technologies": [
+  "Next.js",
+  "TypeScript",
+  "PostgreSQL",
+  "Prisma",
+  "NextAuth.js",
+  "Tailwind CSS",
+  "Google Calendar API"
+   ],
+    "categories": ["Fullstack"],
+    "image": "Scheduler.png",
+    "liveLink": "https://scheduling-app-38m7.vercel.app/",
+    "githubLink": "https://github.com/YashVentures/Scheduling-app"
+  },
+  {
+    "title": "AI Feedback",
+    "subtitle": "AI-Powered Feedback Platform",
+    "description": "A feedback web app built with Next.js and TypeScript, enabling users to generate and share unique feedback URLs. Integrated AI-powered feedback generation to improve user interaction and engagement.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Resend",
+      "shadcn/ui"
+    ],
+    "categories": ["Fullstack"],
+    "image": "Ai-feedback.png",
+    "liveLink": "https://ai-feedback-knq9-yashventures-projects.vercel.app/",
+    "githubLink": "https://github.com/YashVentures/Ai-feedback"
+  },
+  {
+  "title": "TaskFlow",
+  "subtitle": "Smart Task Management Platform",
+  "description": "A full-stack task management application with CRUD operations, dark/light theme support, pagination, search & filters and real-time task tracking. Features a public dashboard preview, analytics dashboard and secure authentication with refresh token rotation.",
+  "technologies": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "Prisma ORM",
+    "SQLite",
+    "JWT"
+  ],
+  "categories": ["Fullstack"],
+  "image": "Task-flow.png",
+  "liveLink": "https://task-flow-seven-nu.vercel.app/dashboard",
+  "githubLink": "https://github.com/YashVentures/TaskFlow"
+},
+{
+  "title": "Study Planner",
+  "subtitle": "Planning & Productivity Web App",
+  "description": "A calm and focused study planning application that helps students organize study sessions, track progress, manage schedules and maintain study streaks.",
+  "technologies": [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "Framer Motion",
+    "React Hot Toast",
+    "JavaScript"
+  ],
+  "categories": ["Frontend"],
+  "image": "personal-sch.png",
+  "liveLink": "https://personal-study-planner-eight.vercel.app/",
+  "githubLink": "https://github.com/YashVentures/Personal_Study_planner"
+},
+{
+    "title": "AI Web Scraper",
+    "subtitle": "LLM-Powered Web Scraping Tool",
+    "description": "An AI-powered web scraping platform that combines Selenium browser automation, Bright Data cloud scraping, BeautifulSoup parsing, and Ollama LLM integration to extract structured information from websites using natural language prompts.",
+    "technologies": [
+      "Python",
+      "Streamlit",
+      "Selenium",
+      "BeautifulSoup",
+      "LangChain",
+      "Ollama"
+    ],
+    "categories": ["Backend", "Fullstack"],
+    "image": "AI-web.png",
+    "githubLink": "https://github.com/YashVentures/AI-web-scraper"
+  },
+{
+    "title": "Trading Bot",
+    "subtitle": "CLI Crypto Trading Bot",
+    "description": "A Python CLI trading bot for Binance Futures Testnet supporting Market, Limit and Stop-Limit orders with input validation, structured logging and environment-based configuration.",
+    "technologies": [
+      "Python",
+      "Binance Futures API",
+      "CLI",
+      "REST API",
+      "dotenv",
+      "Logging"
+    ],
+    "categories": ["Backend"],
+    "githubLink": "https://github.com/YashVentures/Binance_bot"
+  },
+  {
+    "title": "RAG PDF System",
+    "subtitle": "Retrieval-Augmented Pipeline",
+    "description": "A Retrieval-Augmented Generation (RAG) system that processes PDFs, generates embeddings, stores vectors in Qdrant, retrieves relevant chunks through similarity search and generates grounded answers using OpenAI models and LangChain.",
+    "technologies": [
+      "Python",
+      "LangChain",
+      "Qdrant",
+      "OpenAI API",
+      "Vector Database",
+      "RAG"
+    ],
+    "categories": ["Backend"],
+    "githubLink": "https://github.com/YashVentures/RAG"
+  },
+  {
+    "title": "Chat App",
+    "subtitle": "Real-Time MERN Chat Application",
+    "description": "Real-time chat application with individual and group chat functionality. Supports group creation, member management, and admin-based permissions using Socket.io.",
+    "technologies": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Socket.io",
+      "Node-cron",
+      "JavaScript"
+    ],
+    "categories": ["Fullstack"],
+    "image": "chat.png",
+    "liveLink": "https://github.com/YashVentures/mern-chat-app",
+    "githubLink": "https://github.com/YashVentures/mern-chat-app"
+  },
+  {
+  "title": "FAST API",
+  "subtitle": "Product Management API",
+  "description": "A REST API built with FastAPI and PostgreSQL for managing products with full CRUD functionality, request validation using Pydantic, SQLAlchemy ORM integration, automatic Swagger documentation and CORS support for frontend integration.",
+  "technologies": [
+    "FastAPI",
+    "Python",
+    "PostgreSQL",
+    "SQLAlchemy",
+    "Pydantic",
+    "REST API"
+  ],
+  "categories": ["Backend"],
+  "githubLink": "https://github.com/YashVentures/FAST_API"
+},
+  {
+    "title": "iPhone 13 Web",
+    "subtitle": "3D Product Showcase Website",
+    "description": "Interactive iPhone 13 showcase website featuring immersive 3D animations, GSAP-powered transitions, and detailed product presentation for an engaging user experience.",
+    "technologies": [
+      "React.js",
+      "Three.js",
+      "GSAP",
+      "Redux",
+      "JavaScript",
+      "Animation"
+    ],
+    "categories": ["Frontend"],
+    "image": "Iphone.png",
+    "liveLink": "https://lustrous-biscochitos-9deaf6.netlify.app/",
+    "githubLink": "https://github.com/YashVentures/iPhone"
+  },
+  {
+    "title": "Flight Info",
+    "subtitle": "Flight Search Web App",
+    "description": "A Next.js application that allows users to search and view flight details. Built as a freelance assessment project showcasing TypeScript and shadcn/ui expertise.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "shadcn/ui",
+      "Vercel"
+    ],
+    "categories": ["Frontend"],
+    "image": "flight-info.png",
+    "liveLink": "https://flight-app-inky.vercel.app/search",
+    "githubLink": "https://github.com/YashVentures/Flight-app"
+  },
+  {
+    "title": "Travel-advisor",
+    "subtitle": "Travel Discovery Platform",
+    "description": "Travel companion platform for discovering nearby hotels, restaurants, and destinations using maps and location-based APIs for seamless travel planning.",
+    "technologies": [
+      "React",
+      "Google Maps API",
+      "Material UI",
+      "JavaScript",
+      "API Integration"
+    ],
+    "categories": ["Frontend"],
+    "image": "Travel.png",
+    "liveLink": "https://papaya-biscotti-9a5110.netlify.app/",
+    "githubLink": "https://github.com/YashVentures/travel"
+  },
+  {
+    "title": "Simon Game",
+    "subtitle": "JavaScript Memory Game",
+    "description": "Classic Simon memory game built with JavaScript where players repeat color patterns to improve memory skills. Helped strengthen core JavaScript concepts.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "categories": ["Frontend"],
+    "image": "Simon.png",
+    "liveLink": "https://yashventures.github.io/simon/",
+    "githubLink": "https://github.com/YashVentures/simon"
+  }
+]

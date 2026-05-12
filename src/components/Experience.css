@@ -1,0 +1,396 @@
+/* =============================================
+   Experience Section
+   ============================================= */
+
+.experience {
+  position: relative;
+  padding: 6rem 0;
+}
+
+.experience-subtitle {
+  text-align: center;
+  color: var(--text-secondary);
+  font-family: Outfit, Roboto, sans-serif;
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+  margin-top: -0.5rem;
+}
+
+/* ── Category Filter ── */
+.experience-categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 4rem;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(20px);
+  border-radius: 50px;
+  padding: 0.5rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(139, 92, 246, 0.1);
+  flex-wrap: wrap;
+}
+
+[data-theme='dark'] .experience-categories {
+  background: rgba(26, 26, 26, 0.95);
+  border: 1px solid rgba(139, 92, 246, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.exp-category-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: transparent;
+  border: none;
+  border-radius: 50px;
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.exp-category-btn:hover {
+  color: var(--text-primary);
+  background: rgba(139, 92, 246, 0.08);
+}
+
+.exp-category-btn.active {
+  background: linear-gradient(135deg, #4169e1, #6366f1);
+  color: white;
+  box-shadow: 0 4px 12px rgba(65, 105, 225, 0.3);
+  font-weight: 600;
+}
+
+.exp-category-btn svg {
+  font-size: 1rem;
+}
+
+/* ── Timeline Wrapper ── */
+.timeline {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Centre vertical line */
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(99, 102, 241, 0.5) 10%,
+    rgba(65, 105, 225, 0.5) 90%,
+    transparent
+  );
+  z-index: 0;
+}
+
+/* ── Timeline Item ── */
+.timeline-item {
+  position: relative;
+  width: 46%;
+  margin-bottom: 3rem;
+}
+
+.timeline-item.left {
+  margin-left: 0;
+  margin-right: auto;
+  /* card on left, dot on right edge */
+}
+
+.timeline-item.right {
+  margin-left: auto;
+  margin-right: 0;
+  /* card on right, dot on left edge */
+}
+
+/* ── Timeline Dot ── */
+.timeline-dot {
+  position: absolute;
+  top: 1.75rem;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4169e1, #6366f1);
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2), 0 4px 12px rgba(65, 105, 225, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.timeline-item.left .timeline-dot {
+  right: -6.5%;   /* sits on the centre line */
+  transform: translateX(50%);
+}
+
+.timeline-item.right .timeline-dot {
+  left: -6.5%;
+  transform: translateX(-50%);
+}
+
+.dot-icon {
+  color: #fff;
+  font-size: 0.75rem;
+}
+
+/* ── Experience Card ── */
+.exp-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+  transition: box-shadow 0.4s ease, border-color 0.4s ease;
+}
+
+.exp-card:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 20px 60px rgba(99, 102, 241, 0.25);
+}
+
+/* Top accent stripe (hidden until hover) */
+.exp-card-stripe {
+  height: 4px;
+  background: linear-gradient(90deg, #4169e1, #6366f1);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.exp-card:hover .exp-card-stripe {
+  transform: scaleX(1);
+}
+
+.exp-card-body {
+  padding: 1.5rem;
+}
+
+/* ── Card Header ── */
+.exp-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.exp-logo-wrap {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exp-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.exp-logo-fallback {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 1.25rem;
+}
+
+.exp-meta {
+  flex: 1;
+  min-width: 0;
+}
+
+.exp-title {
+  font-family: Orbitron, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 0.2rem;
+  line-height: 1.3;
+}
+
+.exp-subtitle {
+  font-family: Outfit, Roboto, sans-serif;
+  font-size: 0.88rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+}
+
+.exp-date {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: Outfit, Roboto, sans-serif;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.date-icon {
+  font-size: 0.75rem;
+  opacity: 0.75;
+}
+
+/* External link icon */
+.exp-link-icon {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-primary);
+  border: 2px solid var(--border-color);
+  border-radius: 50%;
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.exp-link-icon:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
+/* ── Description ── */
+.exp-description {
+  font-family: Outfit, Roboto, sans-serif;
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* ── Tech Pills ── */
+.exp-tech-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.exp-tech-pill {
+  font-family: Outfit, Roboto, sans-serif;
+  background: rgba(30, 41, 59, 0.6);
+  color: rgba(148, 163, 184, 0.95);
+  padding: 0.3rem 0.65rem;
+  border-radius: 6px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  border: 1px solid rgba(71, 85, 105, 0.4);
+  transition: all 0.3s ease;
+}
+
+[data-theme='light'] .exp-tech-pill {
+  background: rgba(241, 245, 249, 0.8);
+  color: rgba(51, 65, 85, 1);
+  border: 1px solid rgba(203, 213, 225, 0.7);
+}
+
+.exp-tech-pill:hover {
+  background: rgba(99, 102, 241, 0.15);
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+/* ── Category Badges ── */
+.exp-category-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.25rem;
+}
+
+.exp-category-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: Outfit, Roboto, sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
+  background: rgba(65, 105, 225, 0.12);
+  color: #6366f1;
+  border: 1px solid rgba(99, 102, 241, 0.25);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.exp-category-badge svg {
+  font-size: 0.65rem;
+}
+
+/* =============================================
+   Responsive — Tablet (≤ 900 px)
+   ============================================= */
+@media (max-width: 900px) {
+  .timeline-line {
+    left: 18px;
+  }
+
+  .timeline-item {
+    width: calc(100% - 50px);
+    margin-left: 50px !important;
+    margin-right: 0 !important;
+  }
+
+  .timeline-item.left .timeline-dot,
+  .timeline-item.right .timeline-dot {
+    left: -42px;
+    right: auto;
+    transform: none;
+  }
+}
+
+/* =============================================
+   Responsive — Mobile (≤ 560 px)
+   ============================================= */
+@media (max-width: 560px) {
+  .experience-categories {
+    max-width: 95%;
+    padding: 0.3rem;
+  }
+
+  .exp-category-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .exp-title {
+    font-size: 0.95rem;
+  }
+
+  .exp-card-body {
+    padding: 1.1rem;
+  }
+
+  .exp-header {
+    flex-wrap: wrap;
+  }
+}

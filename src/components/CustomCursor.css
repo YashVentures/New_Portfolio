@@ -1,0 +1,31 @@
+.custom-cursor,
+.custom-cursor-follower {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+.custom-cursor {
+  width: 32px;
+  height: 32px;
+  border: 2px solid rgba(139, 92, 246, 0.8);
+  background: rgba(139, 92, 246, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.custom-cursor-follower {
+  width: 16px;
+  height: 16px;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.6);
+}
+
+@media (max-width: 768px) {
+  .custom-cursor,
+  .custom-cursor-follower {
+    display: none;
+  }
+}
+

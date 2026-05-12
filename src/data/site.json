@@ -1,0 +1,44 @@
+{
+  "person": {
+    "displayName": "Yash Bhadauriya",
+    "copyrightName": "Yash Bhadauriya"
+  },
+  "contact": {
+    "email": "ybhadauriya450@gmail.com",
+    "phone": "+91-7800029450",
+    "linkedin": "https://www.linkedin.com/in/yash-bhadauriya/",
+    "github": "https://github.com/YashVentures",
+    "resume": "https://drive.google.com/file/d/1G6AiHQB_smc_ZFyG-7q3M1P27Fj9xylJ/view?usp=sharing",
+    "leetcode":"https://leetcode.com/u/YashVentures/"
+  },
+  "hero": {
+  "name": "Yash Bhadauriya",
+  "roles": [
+    "Full Stack Developer"
+  ],
+  "description": "Expert in building scalable full stack, frontend and backend applications with strong skills in modern programming languages and web technologies."
+},
+  "seo": {
+    "title": "Developer Portfolio | Frontend Developer Portfolio & Full Stack Projects | React, Node.js",
+    "description": "Developer portfolio showcasing frontend and full stack projects built with React, Node.js, and TypeScript. Explore real-world apps, case studies, and GitHub code.",
+    "keywords": [
+      "developer portfolio",
+      "full stack engineer portfolio",
+      "fullstack portfolio",
+      "fullstack developer portfolio",
+      "full stack developer portfolio",
+      "frontend developer portfolio",
+      "frontend portfolio",
+      "backend developer portfolio",
+      "full stack portfolio",
+      "github portfolio developer",
+      "developer portfolio github",
+      "react portfolio",
+      "node.js developer",
+      "typescript portfolio",
+      "software engineer portfolio"
+    ],
+    "author": "Yash Bhadauriya",
+    "jobTitle": "Full Stack Developer"
+  }
+}

@@ -1,0 +1,15 @@
+.water-animation {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+[data-theme="light"] .water-animation {
+  opacity: 0.25;
+}
+

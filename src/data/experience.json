@@ -1,0 +1,84 @@
+[
+    {
+        "title": "Experiana Trails",
+        "subtitle": "Full Stack Developer",
+        "description": "Developed and optimized scalable travel-tech solutions including automated WhatsApp vendor onboarding, OpenAI-powered workflow automation, Redis-based performance optimization, and real-time trip lifecycle notification systems. Designed complex travel data schemas and integrated third-party APIs to support large-scale private and group trip management.",
+        "technologies": [
+            "Node.js",
+            "JavaScript",
+            "Python",
+            "Redis",
+            "OpenAI API",
+            "WhatsApp Cloud API",
+            "REST APIs",
+            "MongoDB"
+        ],
+        "image": "Brand_Logo.png",
+        "date": "Jun 2025 - Dec 2025",
+        "websiteLink": "https://experianatrails.com/"
+    },
+    {
+        "title": "Nutrination.AI",
+        "subtitle": "Full Stack Developer Intern",
+        "description": "Worked as a lead full-stack developer, building and optimizing the company website and contributing to an AI-driven medical chatbot platform. Improved user engagement and enhanced digital healthcare solutions.",
+        "technologies": [
+            "React.js",
+            "Redux",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Material UI",
+            "JavaScript"
+        ],
+        "image": "nutrination.png",
+        "date": "Nov 2024 - Feb 2025"
+    },
+    {
+        "title": "GE Aerospace",
+        "subtitle": "Frontend Engineer Intern",
+        "description": "Developed complex React.js interfaces with Redux state management and built reusable UI components using custom hooks and Context API for improved application performance.",
+        "technologies": [
+            "React.js",
+            "Next.js",
+            "TypeScript",
+            "JavaScript",
+            "Node.js",
+            "Three.js",
+            "Tailwind CSS",
+            "Vercel"
+        ],
+        "image": "ge-aerospace.png",
+        "date": "Sep 2024 - Oct 2024"
+    },
+    {
+        "title": "Smart India Hackathon",
+        "subtitle": "Full Stack Developer Lead",
+        "description": "Led the development of innovative full-stack solutions for real-world problems and secured top position in college-level rounds of SIH 2023 and 2024.",
+        "technologies": [
+            "MERN",
+            "AI",
+            "Machine Learning",
+            "Firebase",
+            "Figma"
+        ],
+        "image": "sih.png",
+        "date": "Sep 2023 & Sep 2024",
+        "websiteLink": "https://www.sih.gov.in/"
+    },
+    {
+        "title": "OOFY HACKS 1.0",
+        "subtitle": "Full Stack Developer (Team Leader)",
+        "description": "Built and deployed an Tourism based full-stack web application using MERN Stackwhile leading the development team during the hackathon.",
+        "technologies": [
+            "React.js",
+            "Node.js",
+            "JavaScript",
+            "Material UI",
+            "JavaScript",
+            "Figma"
+        ],
+        "image": "oofy-hacks.png",
+        "date": "Apr 2024",
+        "websiteLink": ""
+    }
+]
