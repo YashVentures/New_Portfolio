@@ -29,7 +29,7 @@ const Hero = () => {
   const quickStats = [
     { icon: <FaCalendar />, value: "1", label: "Year of Experience" },
     { icon: <SiReact />, value: "20+", label: "Projects" },
-    { icon: <FaTasks />, value: "2", label: "Startups" },
+    { icon: <FaTasks />, value: "3", label: "Companies" },
   ];
 
   const copyToClipboard = async (value) => {

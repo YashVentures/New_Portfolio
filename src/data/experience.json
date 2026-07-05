@@ -1,14 +1,31 @@
 [
     {
+        "title": "Cyber Media India Ltd.",
+        "subtitle": "AI Engineer",
+        "description": "Working on the development of AI Agents and MCP Tools and Server for the company.",
+        "technologies": [
+            "Python",
+            "FastAPI",
+            "Django",
+            "AI Agents",
+            "Langchain",
+            "LangGraph",
+            "Hugging Face",
+            "MCP Tools and Server"
+        ],
+        "image": "cybermedia_logo.png",
+        "date": "Jun 2026 - Present",
+        "websiteLink": "https://cybermedia.co.in/"
+    },
+    {
         "title": "Experiana Trails",
         "subtitle": "Full Stack Developer",
         "description": "Developed and optimized scalable travel-tech solutions including automated WhatsApp vendor onboarding, OpenAI-powered workflow automation, Redis-based performance optimization, and real-time trip lifecycle notification systems. Designed complex travel data schemas and integrated third-party APIs to support large-scale private and group trip management.",
         "technologies": [
             "Node.js",
-            "JavaScript",
-            "Python",
+            "Next.js",
+            "TypeScript",
             "Redis",
-            "OpenAI API",
             "WhatsApp Cloud API",
             "REST APIs",
             "MongoDB"

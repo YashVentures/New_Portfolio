@@ -89,7 +89,8 @@ const About = () => {
   viewport={{ once: true }}
   transition={{ duration: 0.6, delay: 0.1 }}
 >
-  <strong>Full Stack Developer</strong> with <strong>1 year</strong> of experience building scalable web applications and backend systems for startups and real-world products.
+<>
+  <strong>Software Engineer and AI Engineer</strong> with experience at Experiana Trails and Nutrination.AI, currently working as an AI Engineer at Cyber Media India Ltd.</>
 </motion.p>
 
 <motion.p
@@ -98,7 +99,7 @@ const About = () => {
   viewport={{ once: true }}
   transition={{ duration: 0.6, delay: 0.2 }}
 >
-  Strong in backend engineering with both <strong>Python</strong> and <strong>Node.js</strong> ecosystems, including experience with APIs, async programming, authentication systems, caching, REST APIs, and performance optimization.
+  Strong in backend engineering with both <strong>Python</strong> and <strong>JavaScript</strong> ecosystems, including experience with APIs, async programming, authentication systems, caching, REST APIs, and performance optimization.
 </motion.p>
 
 <motion.p
@@ -116,7 +117,7 @@ const About = () => {
   viewport={{ once: true }}
   transition={{ duration: 0.6, delay: 0.4 }}
 >
-  Graduated in <strong>2026</strong> with a Bachelor's degree in Computer Science Engineering and currently based in <strong>Noida, India</strong>. Passionate about building high-performance applications and solving complex engineering problems.
+  Graduated in May <strong>2026</strong> with a Bachelor's degree in Computer Science Engineering and currently based in <strong>Gurugoan, India</strong>. Passionate about building high-performance applications and solving complex engineering problems.
 </motion.p>
           </div>
         </div>

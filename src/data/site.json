@@ -16,11 +16,11 @@
   "roles": [
     "Software Engineer"
   ],
-  "description": "Expert in building scalable full stack, frontend and backend applications with strong skills in modern programming languages and web technologies."
+  "description": "Software Engineer and AI Engineer with a passion for building scalable and efficient systems."
 },
   "seo": {
-    "title": "Developer Portfolio | Frontend Developer Portfolio & Full Stack Projects | React, Node.js",
-    "description": "Developer portfolio showcasing frontend and full stack projects built with React, Node.js, and TypeScript. Explore real-world apps, case studies, and GitHub code.",
+    "title": "Developer Portfolio | Software Engineer and AI Engineer Portfolio | JavaScript & Python",
+    "description": "Developer portfolio showcasing software engineer and ai engineer projects built with JavaScript and Python.",
     "keywords": [
       "developer portfolio",
       "full stack engineer portfolio",
@@ -36,9 +36,10 @@
       "react portfolio",
       "node.js developer",
       "typescript portfolio",
-      "software engineer portfolio"
+      "software engineer portfolio",
+      "ai engineer portfolio"
     ],
     "author": "Yash Bhadauriya",
-    "jobTitle": "Full Stack Developer"
+    "jobTitle": "Software Engineer and AI Engineer"
   }
 }
